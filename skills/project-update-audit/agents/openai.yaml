@@ -1,0 +1,7 @@
+interface:
+  display_name: "项目更新审计"
+  short_description: "修改项目前先审计事实源、影响范围和同步动作"
+  default_prompt: "Use $project-update-audit to audit this project update before changing PRD, fields, API contracts, frontend/backend sync, or prompts."
+
+policy:
+  allow_implicit_invocation: true
